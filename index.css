@@ -1,0 +1,145 @@
+body{
+    background-color: #2F1893;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.navbar-space{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.navbar-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.sign-up-page{
+    width: 500px;
+}
+li{
+    list-style: none;
+    justify-content: space-between;
+}
+h1{
+    color: white;
+    
+}
+button{
+    border-radius: 100px;
+    border-color: transparent;
+    background-color: #E93A7D;
+    color: #ffffff;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+span{
+    color: #ffffff;
+    opacity: 30%;
+}
+p{
+    color: #ffffff;
+}
+.div-center{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    
+}
+input{
+    border-radius: 100px;
+    padding: 12px;
+    border-color: black;
+}
+.sign{
+    color: black;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+hr{
+    width: 100px;
+    margin-top: 15px;
+}
+.checkbox{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button1{
+    background-color:  #1DA1F2;
+    
+}
+.span{
+    color: #25DAC5;
+    font-weight: 500;
+}
+.second-page{
+    width: 25%;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.h1{
+    font-size: 35px;
+}
+.or{
+    padding: 10px;
+}
+.texts{
+    width: 250px;
+}
+.input{
+    border-color: #15143966;
+}
+.button2{
+    background-color: #482BE7;
+    margin-top: 20px;
+}
+.text2{
+    margin-bottom: 20px;
+}
+.text{
+    color: #15143966;
+}
+input[type="checkbox"] {
+    background-color: #25DAC5;
+    border-radius: 1px;
+    appearance: none;
+    cursor: pointer;
+}
+input[type="checkbox"]::before{
+    content: '';
+    position: absolute;
+    margin-top: -10px;
+    margin-left:-5px ;
+    width: 5px;
+    height: 15px;
+    border: 4px solid transparent;
+    border-left: none;
+    border-top: none;
+    transform: rotate(45deg) scale(0.5);
+}
+input[type="checkbox"]:checked:before{
+    border-color: black;
+    animation: checkAnim .2s;
+}
+.checkbox1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
